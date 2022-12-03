@@ -16,6 +16,10 @@ struct Login: View {
         VStack{
             TextField("username", text: $username)
             SecureField("Password", text: $password)
+            TextField("username", text: $username)
+            SecureField("Password", text: $password)
+            TextField("username", text: $username)
+            SecureField("Password", text: $password)
             NavigationLink(destination: TabNavigation().navigationBarBackButtonHidden(true)){
                 Text("Login")
             }
